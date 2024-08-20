@@ -72,7 +72,35 @@ CodeArticle → Désignation
 CodeArticle → PrixUnitaire
 Les DF auraient pu s'écrire de la façon suivante :
 Numcli → (Nom, Prénom, Adresse, Code Postal, Ville)
-CodeArticle → (Désignation, PrixUnitaire).
+CodeArticle → (Désignation, PrixUnitaire). </br></br></br>
  
  
-![alt text](entite.png)
+
+
+## Exercice 1
+
+### Le MCD
+![alt text](MCDEX1V3.png) 
+
+### Le MLD (version 1 seulement la 2 ème version à été corrompu)
+![alt text](MLDEX1.png) 
+
+### Modele physique des donnees (MPD)
+
+Voici le schema relationnel correspondant au MLD precedent :
+
+Fruits (IdFruit, type de fruit, prixFruit)
+
+Animaux (IdAnimal, type animal, prix1nimal)
+
+Legumes (Idlegume, typeLegume, PrixLegume)
+
+InfoMensuel (IdVente, TypeVendu, PrixVendu)
+
+MoyenneMensuel (MoyRentAnimal, MoyRentLeg, MoyRentFruit, MoyRentTotal)
+
+CLient (IDclient, nom, prénom, adresse, numTel)
+
+Saison (IdSaison, TypeDeSaison)
+
+Contenir (#NumCommande, #NumBoissons, Quantité)
