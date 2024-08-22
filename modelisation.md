@@ -89,13 +89,13 @@ CodeArticle → (Désignation, PrixUnitaire). </br></br></br>
 
 Voici le schema relationnel correspondant au MLD precedent :
 
-Fruits (IdFruit, type de fruit, prixFruit)
+Fruits (#IdFruit, type de fruit, prixFruit)
 
-Animaux (IdAnimal, type animal, prix1nimal)
+Animaux (#IdAnimal, type animal, prix1nimal)
 
-Legumes (Idlegume, typeLegume, PrixLegume)
+Legumes (#Idlegume, typeLegume, PrixLegume)
 
-InfoMensuel (IdVente, TypeVendu, PrixVendu)
+InfoMensuel (#IdVente, TypeVendu, PrixVendu)
 
 MoyenneMensuel (MoyRentAnimal, MoyRentLeg, MoyRentFruit, MoyRentTotal)
 
@@ -104,3 +104,19 @@ CLient (IDclient, nom, prénom, adresse, numTel)
 Saison (IdSaison, TypeDeSaison)
 
 Contenir (#NumCommande, #NumBoissons, Quantité)
+
+# Exercie 2
+
+## MCD 
+![alt text](EX2MCD.png) 
+
+# Exercice 3
+
+## MCD
+
+![alt text](MCDEX3.png) 
+
+## dictionnaire de données simplifié
+![alt text](BDEX3.png) 
+
+
